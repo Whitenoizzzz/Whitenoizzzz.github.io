@@ -62,6 +62,7 @@ const removeFocus = () => {
 
 focusButton.addEventListener("click", () => {
     removeFocus();
+    active = "focus";
     focusButton.classList.add("btn-focus");
     isFocus = true;
     isBreak = false;
