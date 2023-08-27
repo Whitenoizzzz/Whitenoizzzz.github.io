@@ -210,8 +210,8 @@ ul li span:hover {
 }
 
 @media screen and (max-width: 480px) {
-    body {
-        font-size: 14px;
+    html {
+        font-size: 12px;
         /* Adjust the root font size */
     }
 }
