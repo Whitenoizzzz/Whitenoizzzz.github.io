@@ -1,7 +1,7 @@
 .pomodoro {
     background-color: transparent;
     width: 100%;
-    max-width: 600px;
+    max-width: 34rem;
     padding: 2em 0;
     border-radius: 0.5em;
 }
@@ -36,7 +36,7 @@ button {
 
 .time-btn-container {
     display: flex;
-    font-size: 16px;
+    font-size: 1rem;
     flex-direction: column;
     margin-top: 2em;
 }
