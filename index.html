@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Todo.css">
+    <link rel="stylesheet" href="Pomodoro.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <title>To-do List App</title>
+</head>
+<body>
+    <div class="contain img1"></div>
+    <div class="contain img2"></div>
+    <div class="contain img3"></div>
+    <div class="contain img4"></div>
+    <div class="contain img5"></div>
+    <img class="fullscreen-toggle" src="https://www.citypng.com/public/uploads/preview/hd-full-screen-white-icon-png-11637222048r3lrt1ejhc.png" alt="Toggle Full Screen">
+        <div class="todo-app">
+            <h2>PomoDoro <img src="https://cdn-icons-png.flaticon.com/512/223/223002.png" alt=""></h2>
+            <div class="typing-effect">
+                <span class="typing-text"></span><span class="cursor"></span>
+            </div>
+            <div class="pomodoro">
+                <div class="section-container">
+                    <button id="focus" class="btn btn-timer btn-focus">Focus</button>
+                    <button id="shortbreak" class="btn btn-shortbreak">Short Break</button>
+                    <button id="longbreak" class="btn btn-longbreak">Long Break</button>
+                </div>
+                <div class="time-btn-container">
+                    <span id="time"></span>
+                    <div class="btn-container">
+                        <button id="btn-start" class="show">Start</button>
+                        <button id="btn-pause" class="hide">Pause</button>
+                        <button id="btn-reset" class="hide">Reset</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add your tasks">
+                <button id="btn1">Add</button>
+            </div>
+            <ul id="list-container">
+                <!-- <li class="checked">Task 1</li>
+                <li>Task 1</li>
+                <li>Task 1</li> -->
+            </ul>
+    </div>
+    <audio controls id = "sound-effect"src="mixkit-correct-answer-tone-2870.wav"></audio>
+    <script src="Pomodoro.js"></script>
+</body>
+</html>

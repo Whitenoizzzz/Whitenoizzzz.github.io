@@ -1,0 +1,75 @@
+.pomodoro {
+    background-color: transparent;
+    width: 100%;
+    max-width: 600px;
+    padding: 2em 0;
+    border-radius: 0.5em;
+}
+
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+
+.section-container {
+    display: flex;
+    gap: 1em;
+    justify-content: space-between;
+}
+
+.btn {
+    padding: 1em 2em;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 2.5rem;
+    border: 3px solid white;
+    background-color: transparent;
+    color: #fff;
+}
+
+.btn-focus {
+    background-color: white;
+    color: rgb(65, 63, 63);
+}
+
+.time-btn-container {
+    display: flex;
+    font-size: 16px;
+    flex-direction: column;
+    margin-top: 2em;
+}
+
+#time {
+    text-align: center;
+    color: #fff;
+    font-size: 8em;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+#btn-start,
+#btn-pause,
+#btn-reset {
+    padding: 1em 2em;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 2.5rem;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
